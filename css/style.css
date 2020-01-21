@@ -8,11 +8,11 @@
   grid-template-areas: 
   'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01'
   'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
-  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re04 wh04 ye01'
-  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re04 wh04 ye01'
-  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re04 wh04 ye01'
-  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re04 wh04 ye01'
-  '. . . . . . . . . . . . . . . . . .'
+  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+  'no01 wh06 wh06 no02 ye03 re03 re03 re03 bl03 bl03 bl03 wh09 wh09 wh09 wh09 wh10 no03 no03'
   '. . . . . . . . . . . . . . . . . .'
   '. . . . . . . . . . . . . . . . . .'
   '. . . . . . . . . . . . . . . . . .'
@@ -84,25 +84,49 @@
 }
 
 #item16 {
-  grid-area: re04;
+  grid-area: re02;
 }
 
-#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13 {
+#item17 {
+  grid-area: ye03;
+}
+
+#item18 {
+  grid-area: re03;
+}
+
+#item19 {
+  grid-area: bl03;
+}
+
+#item20 {
+  grid-area: wh09;
+}
+
+#item21 {
+  grid-area: wh10;
+}
+
+#item22 {
+  grid-area: no03;
+}
+
+#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21 {
   background-color: white;
 }
 
-#item5, #item14 {
+#item5, #item14, #item17 {
   background-color: yellow;
 }
 
-#item6, #item8 {
+#item6, #item8, #item19 {
   background-color: blue;
 }
 
-#item9, #item11 {
+#item9, #item11, #item22 {
   background-color: black;
 }
 
-#item15, #item16 {
+#item15, #item16, #item18 {
   background-color: red;
 }
