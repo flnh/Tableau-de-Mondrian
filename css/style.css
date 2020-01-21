@@ -1,12 +1,13 @@
 #grid-container {
-  width: 900px;
+  width: 1000px;
   height: 600px;
-  border: 5px solid black;
+  border: 8px solid black;
   display: grid;
   background-color: black;
-  grid-gap: 5px;
+  grid-gap: 6px;
   grid-template-areas: 
   'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01'
+  'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
   'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
   'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
   'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
@@ -20,7 +21,7 @@
   'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
   'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
   'wh11 re04 re04 no02 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15'
-  '. . . . . . . . . . . . . . . . . .';
+  'wh16 wh16 wh16 wh16 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15';
 }
 
 #item1 {
@@ -159,7 +160,11 @@
   grid-area: wh15;
 }
 
-#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21, #item23, #item26, #item27, #item30, #item34 {
+#item35 {
+  grid-area: wh16;
+}
+
+#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21, #item23, #item26, #item27, #item30, #item34, #item35 {
   background-color: white;
 }
 
