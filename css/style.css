@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 #grid-container {
-  width: 1000px;
-  height: 600px;
+  width: calc(90vh * 1.667);
+  height: 90vh;
+  margin: 10px auto;
   border: 8px solid black;
   display: grid;
   background-color: black;
@@ -21,6 +27,7 @@
   'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
   'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
   'wh11 re04 re04 no02 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15'
+  'wh16 wh16 wh16 wh16 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15'
   'wh16 wh16 wh16 wh16 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15';
 }
 
@@ -173,7 +180,7 @@
 }
 
 #item6, #item8, #item19, #item28 {
-  background-color: blue;
+  background-color: darkblue;
 }
 
 #item9, #item11, #item22, #item33 {
