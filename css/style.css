@@ -4,8 +4,8 @@
 }
 
 #grid-container {
-  width: calc(90vh * 1.667);
-  height: 90vh;
+  width: 75vw;
+  height: calc(75vw / 1.667);
   margin: 10px auto;
   border: 8px solid black;
   display: grid;
