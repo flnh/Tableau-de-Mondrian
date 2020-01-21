@@ -1,0 +1,68 @@
+#grid-container {
+  width: 900px;
+  height: 600px;
+  border: 5px solid black;
+  display: grid;
+  background-color: black;
+  grid-gap: 5px;
+  grid-template-areas: 
+  'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01'
+  'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .'
+  '. . . . . . . . . . . . . . . . . .';
+}
+
+#item1 {
+  grid-area: wh01;
+}
+
+#item2 {
+  grid-area: wh02;
+}
+
+#item3 {
+  grid-area: wh03;
+}
+
+#item4 {
+  grid-area: wh04;
+}
+
+#item5 {
+  grid-area: ye01;
+}
+
+#item6 {
+  grid-area: bl01;
+}
+
+#item7 {
+  grid-area: wh05;
+}
+
+#item8 {
+  grid-area: bl02;
+}
+
+#item1, #item2, #item3, #item4, #item7 {
+  background-color: white;
+}
+
+#item5 {
+  background-color: yellow;
+}
+
+#item6, #item8 {
+  background-color: blue;
+}
