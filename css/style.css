@@ -143,11 +143,27 @@
   grid-area: wh14;
 }
 
-#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21, #item23, #item26, #item27, #item30 {
+#item31 {
+  grid-area: ye04;
+}
+
+#item32 {
+  grid-area: re05;
+}
+
+#item33 {
+  grid-area: no04;
+}
+
+#item34 {
+  grid-area: wh15;
+}
+
+#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21, #item23, #item26, #item27, #item30, #item34 {
   background-color: white;
 }
 
-#item5, #item14, #item17, #item25, #item29 {
+#item5, #item14, #item17, #item25, #item29, #item31 {
   background-color: yellow;
 }
 
@@ -155,10 +171,10 @@
   background-color: blue;
 }
 
-#item9, #item11, #item22 {
+#item9, #item11, #item22, #item33 {
   background-color: black;
 }
 
-#item15, #item16, #item18, #item24 {
+#item15, #item16, #item18, #item24, #item32 {
   background-color: red;
 }
