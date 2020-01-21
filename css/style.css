@@ -12,14 +12,14 @@
   'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
   'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
   'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+  'no01 wh06 wh06 no02 wh07 wh07 wh07 wh08 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
   'no01 wh06 wh06 no02 ye03 re03 re03 re03 bl03 bl03 bl03 wh09 wh09 wh09 wh09 wh10 no03 no03'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
-  '. . . . . . . . . . . . . . . . . .'
+  'no01 wh06 wh06 no02 ye03 re03 re03 re03 bl03 bl03 bl03 wh09 wh09 wh09 wh09 wh10 no03 no03'
+  'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
+  'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
+  'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
+  'wh11 re04 re04 no02 ye04 wh12 wh12 wh12 wh12 wh12 wh13 wh13 wh13 bl04 bl04 ye05 wh14 wh14'
+  'wh11 re04 re04 no02 ye04 re05 re05 re05 no04 no04 no04 no04 no04 wh15 wh15 wh15 wh15 wh15'
   '. . . . . . . . . . . . . . . . . .';
 }
 
@@ -111,15 +111,47 @@
   grid-area: no03;
 }
 
-#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21 {
+#item23 {
+  grid-area: wh11;
+}
+
+#item24 {
+  grid-area: re04;
+}
+
+#item25 {
+  grid-area: ye04;
+}
+
+#item26 {
+  grid-area: wh12;
+}
+
+#item27 {
+  grid-area: wh13;
+}
+
+#item28 {
+  grid-area: bl04;
+}
+
+#item29 {
+  grid-area: ye05;
+}
+
+#item30 {
+  grid-area: wh14;
+}
+
+#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item20, #item21, #item23, #item26, #item27, #item30 {
   background-color: white;
 }
 
-#item5, #item14, #item17 {
+#item5, #item14, #item17, #item25, #item29 {
   background-color: yellow;
 }
 
-#item6, #item8, #item19 {
+#item6, #item8, #item19, #item28 {
   background-color: blue;
 }
 
@@ -127,6 +159,6 @@
   background-color: black;
 }
 
-#item15, #item16, #item18 {
+#item15, #item16, #item18, #item24 {
   background-color: red;
 }
